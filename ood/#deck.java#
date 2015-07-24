@@ -1,0 +1,24 @@
+class Deck{
+    private // final TOTAL_NUM = 52;
+//     private String Clubs = '1';
+//     private String Diamonds = '2';
+//     private String Hearts = '3';
+//     private String Spades = '4';
+
+//     private String[
+		   TOTAL_NUM] Suits;
+    private int[TOTAL_NUM] Numbers;
+
+    public Deck(){
+	for(int i = 0; i < 52; i++){
+	    if(i<13) Suits[i]=Clubs;
+	}
+	
+
+    }
+
+
+
+
+
+}
